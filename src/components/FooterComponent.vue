@@ -25,7 +25,7 @@
                     <div class="flex items-center gap-x-4">
                         <p class="text-pink">Follow us</p>
                         <img class="w-4" src="@images/footer/instagram.png" alt="Instagram icon">
-                        <img class="w-3" src="@/assets/images/footer/x.png" alt="x icon">
+                        <img class="w-3" src="@images/footer/x.png" alt="x icon">
                         <img class="w-2" src="@images/footer/facebook.png" alt="facebook icon">
                         <img class="w-4" src="@images/footer/linkedin.png" alt="linkedin icon">
                     </div>
