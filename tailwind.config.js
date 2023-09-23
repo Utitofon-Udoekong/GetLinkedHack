@@ -20,7 +20,7 @@ export default {
         'indigo': '#150E28',
       },
       listStyleImage: {
-        check: 'url("@images/privacy/list-check.png")',
+        check: 'url("@/assets/images/privacy/list-check.png")',
       },
     },
   },
