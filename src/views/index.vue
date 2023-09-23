@@ -38,7 +38,7 @@
 <style>
 .reward{
     height: 100%;
-    background: url(@images/price/prize-bg.png), var(--background-color) 0px -0.093px / 100% 109.967% no-repeat;
+    background: url(@/assets/images/price/prize-bg.png), var(--background-color) 0px -0.093px / 100% 109.967% no-repeat;
     background-blend-mode: color-burn;
     z-index: -20;
 }
