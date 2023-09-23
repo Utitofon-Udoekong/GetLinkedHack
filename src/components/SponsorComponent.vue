@@ -15,7 +15,7 @@
                     <div class="p-3 md:p-5 sponsor flex items-center justify-center"><img src="@images/sponsor/Winwise.png" class="w-10 md:w-auto" alt="Winwise"></div>
                     <div class="p-3 md:p-5 sponsor-l flex items-center justify-center"><img src="@images/sponsor/wisper.png" class="w-10 md:w-auto" alt="wisper"></div>
                     <div class="p-3 md:p-5 sponsor-l flex items-center justify-center"><img src="@images/sponsor/Paybox.png" class="w-10 md:w-auto" alt="Paybox"></div>
-                    <div class="p-3 md:p-5 flex items-center justify-center"><img src="@images/sponsor/Vizual Plus.png" class="w-10 md:w-auto" alt="Vizual Plus"></div>
+                    <div class="p-3 md:p-5 flex items-center justify-center"><img src="@images/sponsor/VizualPlus.png" class="w-10 md:w-auto" alt="Vizual Plus"></div>
                 </div>
                 <img src="@images/sponsor/sponsor-star-1.png" alt="sponsor-star-1" class="absolute w-2 md:w-auto top-2 md:-top-12 left-14">
                 <img src="@images/sponsor/sponsor-star-2.png" alt="sponsor-star-2" class="absolute w-2 md:w-auto top-[27%] md:top-20 right-[48%] md:right-[450px]">
