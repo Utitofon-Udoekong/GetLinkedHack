@@ -1,0 +1,99 @@
+/* Google fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unica+One&display=swap');
+
+/* Tailwind imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font-face */
+@font-face {
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Clash Display'), url(@/assets/fonts/ClashDisplay-Bold.otf) format('opentype');
+}
+
+/* color palette from figma design */
+:root {
+  --vt-c-indigo: #150E28;
+  --vt-c-white: #ffffff;
+
+  --vt-c-pink: #D434FE;
+
+  --vt-c-purple: #903AFF;
+
+  --vt-c-primary-gradient: linear-gradient(270deg, var(--vt-c-purple) 0%, var(--vt-c-pink) 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+  --vt-c-primary-gradient: -moz-linear-gradient(270deg, var(--vt-c-purple) 0%, var(--vt-c-pink) 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+  --vt-c-primary-gradient: -webkit-linear-gradient(270deg, var(--vt-c-purple) 0%, var(--vt-c-pink) 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+/* semantic color variables for this project */
+:root {
+  --background-color: var(--vt-c-indigo);
+  --text-color: var(--vt-c-white);
+  --default-padding-x: 32px;
+  --default-padding-y: 30px;
+  --footer-bg: #100B20;
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --default-padding-x: 70px;
+    --default-padding-y: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  :root {
+    --default-padding-x: 128px;
+    --default-padding-y: 63px;
+  }
+}
+
+/* App css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  scroll-behavior: smooth;
+  /* outline: 1px solid red; */
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+body {
+  color: var(--text-color);
+  background: var(--background-color);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, li{
+  color: var(--color-text);
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+}
+
+.horizontal-padding{
+  padding: 0 var(--default-padding-x);
+}
+
+.clash-display{
+  font-family: 'Clash Display';
+}
+
+.button-gradient{
+  background: var(--vt-c-primary-gradient)
+}
