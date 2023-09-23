@@ -5,8 +5,7 @@
         <div class="horizontal-padding">
             <div class="text-center mb-16">
                 <p class="font-clash text-xl md:text-3xl pb-3 md:pb-5">Partner and Sponsors</p>
-                <p class="text-xs md:text-sm leading-[27px]">Getlinked Hackathon 1.0 is honored to have the following major <br>
-                    companies as its partners and sponsors</p>
+                <p class="text-xs md:text-sm leading-[27px]">Getlinked Hackathon 1.0 is honored to have the following major <br> companies as its partners and sponsors</p>
             </div>
             <div class="relative bg-white/[0.01] border border-pink rounded-lg py-5 sm:py-10 md:px-40 md:py-36">
                 <div class="grid grid-cols-3 grid-rows-2">
