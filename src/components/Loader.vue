@@ -4,7 +4,7 @@ const store = useAPIStore()
 const {loading} = storeToRefs(store)
 </script>
 <template>
-  <div v-if="loading" class="fixed h-screen w-screen z-50 inset-0 bg-indigo/[93%] flex justify-center items-center">
+  <div v-if="loading" class="pointer-events-none fixed h-screen w-screen z-50 inset-0 bg-indigo/[93%] flex justify-center items-center">
     <div aria-label="Loading..." role="status">
   <svg class="animate-spin w-10 h-10 stroke-hard-pink" viewBox="0 0 256 256">
     <line x1="128" y1="32" x2="128" y2="64" stroke-linecap="round" stroke-linejoin="round" stroke-width="24">
