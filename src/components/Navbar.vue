@@ -9,10 +9,10 @@ const toggleNav = () => isNavOpen.value = !isNavOpen.value
 
         <div class="hidden md:flex items-center">
             <ul class="inline-flex gap-x-10 mr-24 text-base">
-                <li><a class="text-white" href="#timeline">Timeline</a></li>
-                <li><a class="text-white" href="#">Overview</a></li>
-                <li><a class="text-white" href="#faq">FAQs</a></li>
-                <li><RouterLink to="/contact" class="text-white">Contact</RouterLink></li>
+                <li><a class="text-white mouse-md" href="#timeline">Timeline</a></li>
+                <li><a class="text-white mouse-md" href="#">Overview</a></li>
+                <li><a class="text-white mouse-md" href="#faq">FAQs</a></li>
+                <li><RouterLink to="/contact" class="text-white mouse-md">Contact</RouterLink></li>
             </ul>
             <ActionButton to="/register" title="Register"/>
         </div>

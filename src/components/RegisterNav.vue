@@ -8,12 +8,12 @@ const route = useRoute()
 
         <div class="flex items-center">
             <ul class="inline-flex gap-x-10 mr-24 text-base">
-                <li><a class="text-white" href="/#timeline">Timeline</a></li>
-                <li><a class="text-white" href="/#">Overview</a></li>
-                <li><a class="text-white" href="/#faq">FAQs</a></li>
-                <li><RouterLink to="/contact" class="bg-gradient-to-r from-purple to-[#FF26B9] bg-clip-text text-transparent" >Contact</RouterLink></li>
+                <li><a class="text-white mouse-md" href="/#timeline">Timeline</a></li>
+                <li><a class="text-white mouse-md" href="/#">Overview</a></li>
+                <li><a class="text-white mouse-md" href="/#faq">FAQs</a></li>
+                <li><RouterLink to="/contact" class="bg-gradient-to-r from-purple to-[#FF26B9] mouse-md bg-clip-text text-transparent" >Contact</RouterLink></li>
             </ul>
-            <button class="text-white z-10 rounded-[4px] relative action-button px-11 py-4 sm:px-13 font-montserrat text-base">Register</button>
+            <button class="text-white z-10 mouse-md rounded-[4px] relative action-button px-11 py-4 sm:px-13 font-montserrat text-base">Register</button>
         </div>
     </nav>
     <RouterLink to="/" class="text-pink font-clash font-bold text-[15px] block md:hidden">Register</RouterLink>
