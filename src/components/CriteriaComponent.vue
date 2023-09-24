@@ -1,10 +1,10 @@
 <script setup lang="ts">
 </script>
 <template>
-    <div class="py-10 md:py-20">
+    <div class="py-10 md:py-20 overflow-x-hidden">
         <div class="flex flex-col md:flex-row items-center justify-around horizontal-padding">
             <div class="relative pt-8 md:pt-16">
-                <img src="@images/criteria/criteria-image.png" alt="Criteria image" class="h-full">
+                <img src="@images/criteria/criteria-image.png" alt="Criteria image" class="md:h-full">
                 <img src="@images/criteria/criteria-star.png" alt="star icon" class="absolute w-2 md:w-auto top-0 md:-top-16 left-28 md:left-32">
                 <img src="@images/criteria/criteria-star-2.png" alt="star icon" class="absolute hidden md:block -bottom-10 right-10 w-2 md:w-5 xl:w-8">
                 <img src="@images/criteria/criteria-ellipse.png" alt="image ellipse clip" class="absolute top-6 hidden sm:block left-20 -z-10">
