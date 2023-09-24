@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Categories, RegisterForm } from '@/utils';
-
+const store = useAPIStore()
 const isRegistered = ref(false)
 const form = ref<RegisterForm>({
   category: 0,
@@ -11,12 +11,17 @@ const form = ref<RegisterForm>({
   project_topic: "",
   team_name: ""
 })
-const {data,isLoading, execute, isFinished} = registerTeam(form.value)
+const {data,isLoading, execute,} = registerTeam(form.value)
 const {data: categories} = getCategories()
 watchEffect(() => {
   console.log(form.value.privacy_poclicy_accepted)
   if(data.value){
     isRegistered.value = true
+  }
+  if(isLoading.value){
+    store.toggleLoading()
+  }else{
+    store.toggleLoading()
   }
 })
 

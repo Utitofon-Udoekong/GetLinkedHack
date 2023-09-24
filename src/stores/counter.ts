@@ -2,11 +2,9 @@ import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useAPIStore = defineStore('counter', () => {
-  const count = ref(0)
-  const doubleCount = computed(() => count.value * 2)
-  function increment() {
-    count.value++
-  }
+  const loading = ref(false)
+  const toggleLoading = () => loading.value = !loading.value
+  
 
-  return { count, doubleCount, increment }
+  return { loading, toggleLoading }
 })

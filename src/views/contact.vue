@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ContactForm } from '@/utils';
-
+const store = useAPIStore()
 const contactForm = ref<ContactForm>({
     email: "",
     first_name: "",
@@ -8,7 +8,13 @@ const contactForm = ref<ContactForm>({
     phone_number: ""
 })
 const {isLoading, execute} = submitContactForm(contactForm.value)
-
+watchEffect(() => {
+  if(isLoading.value){
+    store.toggleLoading()
+  }else{
+    store.toggleLoading()
+  }
+})
 useHead({
   title: "Contact Us - GetLinked"
 })

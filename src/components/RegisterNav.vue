@@ -2,7 +2,7 @@
 const route = useRoute()
 </script>
 <template>
-  <div class="horizontal-padding mb-4 md:mb-8 bg-transparent h-full">
+  <div data-aos="fade-down" class="horizontal-padding mb-4 md:mb-8 bg-transparent h-full">
     <nav class="w-full m-auto hidden md:flex justify-between items-center ">
         <Logo/>
 

@@ -2,7 +2,9 @@
 </script>
 
 <template>
+  <Loader />
   <RouterView/>
+  <Cursor />
 </template>
 
 <style scoped>

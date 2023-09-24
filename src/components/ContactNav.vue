@@ -2,7 +2,7 @@
 const route = useRoute()
 </script>
 <template>
-  <div class="horizontal-padding md:mb-[30px] bg-transparent h-full">
+  <div data-aos="fade-down" class="horizontal-padding md:mb-[30px] bg-transparent h-full">
     <RouterLink to="/" class="block md:hidden"><img src="@images/contact/back.png" alt="back button"></RouterLink>
     <nav class="w-full m-auto hidden md:flex justify-between items-center ">
         <Logo/>

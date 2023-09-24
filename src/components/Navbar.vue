@@ -3,7 +3,7 @@ const isNavOpen = ref(false)
 const toggleNav = () => isNavOpen.value = !isNavOpen.value
 </script>
 <template>
-  <div class="horizontal-padding mb-[30px] bg-transparent h-full ">
+  <div data-aos="fade-down" class="horizontal-padding mb-[30px] bg-transparent h-full ">
     <nav class="w-full m-auto flex justify-between items-center">
         <Logo/>
 
