@@ -3,8 +3,8 @@ const isNavOpen = ref(false)
 const toggleNav = () => isNavOpen.value = !isNavOpen.value
 </script>
 <template>
-  <div data-aos="fade-down" class="horizontal-padding mb-[30px] bg-transparent h-full ">
-    <nav class="w-full m-auto flex justify-between items-center">
+  <div class="horizontal-padding mb-[30px] bg-transparent h-full ">
+    <nav data-aos="fade-down" class="w-full m-auto flex justify-between items-center">
         <Logo/>
 
         <div class="hidden md:flex items-center">
@@ -20,7 +20,7 @@ const toggleNav = () => isNavOpen.value = !isNavOpen.value
           <img src="@images/header/hamburger.png" alt="Nav menu icon">
         </div>
         <div v-if="isNavOpen" :class="[
-          'fixed inset-0 duration-300 w-full h-screen p-8 bg-indigo backdrop-blur-xl z-40 flex flex-col justify-center items-start md:hidden',
+          'fixed inset-0 duration-300 w-full h-screen p-8 bg-indigo backdrop-blur-xl z-50 flex flex-col justify-center items-start md:hidden',
         ]">
           <div @click="toggleNav" class="absolute top-8 right-8">
             <img src="@images/header/close-nav.png" alt="Close Nav icon">
