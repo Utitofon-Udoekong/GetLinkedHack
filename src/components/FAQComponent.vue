@@ -29,7 +29,7 @@ const faqs = <{q: String,a: String}[]> [
 <template>
   <div class="flex flex-col md:flex-row md:justify-around items-center horizontal-padding relative">
     <div class="max-w-md mb-20 md:mb-0">
-        <p class="text-center md:text-right font-clash text-xl md:text-3xl pb-3 md:pb-5">Frequently Ask<br><span class="text-pink">Question</span></p>
+        <p class="text-center md:text-right font-clash text-xl  md:text-3xl mouse-lg pb-3 md:pb-5">Frequently Ask<br><span class="text-pink">Question</span></p>
         <p class="text-center md:text-right text-xs md:text-sm pb-8 md:pb-10 leading-7">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</p>
         <div>
             <div v-for="faq in faqs" class="border-b border-pink py-2 md:py-3 mb-3 cursor-pointer flex justify-between items-center">

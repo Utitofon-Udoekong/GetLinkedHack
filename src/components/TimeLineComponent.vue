@@ -116,7 +116,7 @@ const mobileTimelines = <MobileTimeline[]>[
     <div>
         <div class="horizontal-padding">
             <div class="text-center mb-14 md:mb-20">
-                <p class="font-clash text-xl md:text-3xl pb-3 md:pb-5">Timeline</p>
+                <p class="font-clash text-xl md:text-3xl mouse-lg pb-3 md:pb-5">Timeline</p>
                 <p class="text-xs md:text-sm leading-5 md:leading-7">Here is the breakdown of the time we anticipate <br class="hidden md:block"> using for the upcoming
                     event.</p>
             </div>

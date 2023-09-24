@@ -10,7 +10,7 @@
                 <img src="@images/criteria/criteria-ellipse.png" alt="image ellipse clip" class="absolute top-6 hidden sm:block left-20 -z-10">
             </div>
             <div class="max-w-md relative text-center md:text-left">
-                <p class="font-clash text-xl md:text-3xl pb-4 md:pb-5">Judging criteria<br><span class="text-pink">Key attributes</span></p>
+                <p class="font-clash text-xl md:text-3xl mouse-lg pb-4 md:pb-5">Judging criteria<br><span class="text-pink">Key attributes</span></p>
                 <ul class="text-xs md:text-sm">
                     <li class="leading-[25px] mb-5"><span class="text-hard-pink">Innovation and Creativity:</span> Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.</li>
                     <li class="leading-[25px] mb-5"><span class="text-hard-pink">Functionality:</span> Assess how well the solution works. Does it perform its intended functions effectively and without major issues? Judges would consider the completeness and robustness of the solution.</li>

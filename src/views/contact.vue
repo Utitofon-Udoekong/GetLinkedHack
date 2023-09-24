@@ -26,7 +26,7 @@ useHead({
             <ContactNav />
             <div class="md:flex justify-around items-center md:mt-32">
                 <div class="hidden md:block max-w-[270px]">
-                    <p class="text-3xl text-pink pb-5 font-clash font-semibold">Get in touch</p>
+                    <p class="text-3xl mouse-lg text-pink pb-5 font-clash font-semibold">Get in touch</p>
                     <p class="pb-5">Contact <br>Information</p>
                     <p class="pb-5">27,Alara Street <br>Yaba 100012 <br>Lagos State</p>
                     <p class="pb-5">Call Us : 07067981819</p>

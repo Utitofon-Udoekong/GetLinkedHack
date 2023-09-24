@@ -3,7 +3,7 @@
 <template>
     <div class="flex flex-col-reverse md:flex-row items-center justify-around horizontal-padding">
         <div class="max-w-lg relative text-center md:text-left">
-            <p class="font-clash text-xl md:text-3xl pb-2 md:pb-4">Rules and <br><span class="text-pink">Guidelines</span>
+            <p class="font-clash text-xl md:text-3xl mouse-lg pb-2 md:pb-4">Rules and <br><span class="text-pink">Guidelines</span>
             </p>
             <p class="text-xs md:text-sm leading-[25px]">Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to
                 shape the future. Whether you're a coding genius, a design maverick, or a concept wizard, you'll have the

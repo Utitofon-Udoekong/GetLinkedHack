@@ -14,7 +14,7 @@
                 </div>
                 <div class="flex flex-col md:flex-row md:justify-between">
                     <div class="px-8 md:pl-[70px] xl:pl-32">
-                        <div class="font-clash text-3xl md:text-6xl xl:text-[80px] mt-16 md:mt-32 relative md:w-max text-center md:text-left">
+                        <div class="font-clash text-3xl mouse-lg md:text-6xl xl:text-[80px] mt-16 md:mt-32 relative md:w-max text-center md:text-left">
                             <p>getlinked Tech</p>
                             <p class="flex items-center gap-x-1 md:gap-x-2 pb-2 md:pb-0">Hackathon <span class="text-pink">1.0</span>
                                 <img src="@images/header/header-icon-chain.png" alt="chain icon"

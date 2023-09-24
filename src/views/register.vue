@@ -39,7 +39,7 @@ useHead({
             <img src="@images/register/register-image.png" alt="register-image" class="md:w-full w-48">
           </div>
           <div class="register-card md:px-16 md:py-14 lg:max-w-[600px]">
-            <p class="text-3xl font-clash text-pink font-semibold pb-9 hidden md:block">Register</p>
+            <p class="text-3xl mouse-lg font-clash text-pink font-semibold pb-9 hidden md:block">Register</p>
             <span class="mb-2 md:mb-5 flex items-end">
               <p class="text-xs md:text-sm">Be part of this movement!</p> <img src="@images/register/movement.png"
                 alt="Part of the movement" class="w-20">
@@ -130,7 +130,7 @@ useHead({
         <div class="flex justify-center">
           <img src="@images/register/register-success.png" alt="register success" class="w-auto md:w-[320px]">
         </div>
-        <p class="text-base md:text-2xl xl:text-3xl font-semibold pb-5">Congratulations <br> you have successfully Registered!</p>
+        <p class="text-base md:text-2xl xl:text-3xl mouse-lg font-semibold pb-5">Congratulations <br> you have successfully Registered!</p>
         <p class="text-xs md:text-sm font-medium md:font-semibold pb-2">Yes, it was easy and you did it!</p>
         <p class="text-xs md:text-sm font-medium md:font-semibold flex gap-x-1 items-center justify-center">check your mail box for next step
           <img src="@images/register/register-success-emoji.png" alt="register success emoji">

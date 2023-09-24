@@ -6,7 +6,7 @@
         <div class="md:grid md:grid-cols-12 mb-14 md:mb-20">
             <div class="hidden md:block col-span-7"></div>
             <div class="md:col-span-5 text-center md:text-left">
-                <p class="font-clash text-xl md:text-3xl">Prizes and <br><span class="text-pink">Rewards</span></p>
+                <p class="font-clash text-xl md:text-3xl mouse-lg">Prizes and <br><span class="text-pink">Rewards</span></p>
                 <p class="text-xs md:text-base leading-[25px]">Highlight of the prizes or rewards for winners and for participants. </p>
             </div>
         </div>
@@ -24,26 +24,26 @@
                     <div class="mb-6 flex flex-col items-center">
                         <img src="@images/price/prize-2.png" alt="Silver" class="-mb-9 md:-mb-20 z-10 w-20 md:w-40">
                         <div class="flex flex-col justify-end text-center md:p-6 py-6 bg-pink/[0.12] border border-pink rounded-lg w-20 md:w-44 h-32 md:h-60 xl:w-56 xl:h-72">
-                            <p class="font-bold text-xs md:text-3xl xl:text-4xl">2nd</p>
+                            <p class="font-bold text-xs md:text-3xl mouse-lg xl:text-4xl">2nd</p>
                             <p class="font-semibold pt-0 xl:pt-1 pb-2 xl:pb-3 text-xs md:text-xl xl:text-2xl">Runner</p>
-                            <p class="font-bold text-pink text-xs md:text-2xl xl:text-3xl">N300,000</p>
+                            <p class="font-bold text-pink text-xs md:text-2xl xl:text-3xl mouse-lg">N300,000</p>
                         </div>
                     </div>
                     <div class="flex flex-col items-center">
                         <img src="@images/price/prize-1.png" alt="Gold" class="-mb-14 md:-mb-28 z-10 p-0 m-0 w-36 md:w-52">
                         <div
                             class="flex flex-col justify-end text-center md:p-6 py-6 bg-purple/[0.12] border border-purple rounded-lg w-24 md:w-44 h-36 md:h-64 xl:w-56 xl:h-80">
-                            <p class="font-bold text-xs md:text-3xl xl:text-4xl">1st</p>
+                            <p class="font-bold text-xs md:text-3xl mouse-lg xl:text-4xl">1st</p>
                             <p class="font-semibold pt-0 xl:pt-1 pb-2 xl:pb-3 text-xs md:text-xl xl:text-2xl">Runner</p>
-                            <p class="font-bold text-pink text-xs md:text-2xl xl:text-3xl">N400,000</p>
+                            <p class="font-bold text-pink text-xs md:text-2xl xl:text-3xl mouse-lg">N400,000</p>
                         </div>
                     </div>
                     <div class="mb-6 flex flex-col items-center">
                         <img src="@images/price/prize-3.png" alt="Bronze" class="-mb-11 md:-mb-24 z-10 w-20 md:w-40">
                         <div class="flex flex-col justify-end text-center md:p-6 py-6 bg-pink/[0.12] border border-pink rounded-lg w-20 md:w-44 h-32 md:h-60 xl:w-56 xl:h-72">
-                            <p class="font-bold text-xs md:text-3xl xl:text-4xl">3rd</p>
+                            <p class="font-bold text-xs md:text-3xl mouse-lg xl:text-4xl">3rd</p>
                             <p class="font-semibold pt-0 xl:pt-1 pb-2 xl:pb-3 text-xs md:text-xl xl:text-2xl">Runner</p>
-                            <p class="font-bold text-pink text-xs md:text-2xl xl:text-3xl">N150,000</p>
+                            <p class="font-bold text-pink text-xs md:text-2xl xl:text-3xl mouse-lg">N150,000</p>
                         </div>
                     </div>
                 </div>
