@@ -7,11 +7,12 @@ const contactForm = ref<ContactForm>({
     message: "",
     phone_number: ""
 })
-const {isLoading, execute} = submitContactForm(contactForm.value)
+const {isLoading, execute, isFinished} = submitContactForm(contactForm.value)
 watchEffect(() => {
   if(isLoading.value){
     store.toggleLoading()
-  }else{
+  }
+  if(isFinished.value){
     store.toggleLoading()
   }
 })
