@@ -17,18 +17,4 @@ export const registerTeam = (form: RegisterForm) => {
 export const submitContactForm = (form: ContactForm) => {
     const { data, isFinished, isLoading,error, execute } = useAxios('/hackathon/contact-form', { method: 'POST',data: form }, instance, {immediate: false})
     return {data, isLoading, isFinished, error, execute}
-    // body
-    // {
-    //     "email":"sample@eexample.com",
-    //     "phone_number":"0903322445533",
-    //     "first_name": "Space Explore",
-    //     "message": "I need further info"
-    // }
-
-    // {
-    //     "id": 2,
-    //     "email": "sample@eexample.com",
-    //     "first_name": "Space Explore",
-    //     "message": "I need further info"
-    //   }
 }
