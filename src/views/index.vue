@@ -42,7 +42,7 @@
     background-blend-mode: color-burn;
     z-index: -20;
 }
-  @media screen and (mqx-width: 767px){
+  @media screen and (max-width: 767px){
     .reward{
       background: none;
     }
