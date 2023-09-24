@@ -1,7 +1,7 @@
 <script setup lang="ts">
 </script>
 <template>
-    <div class="py-10 md:py-20 overflow-x-hidden">
+    <div class="py-10 md:py-20">
         <div class="flex flex-col md:flex-row items-center justify-around horizontal-padding">
             <div class="relative pt-8 md:pt-16">
                 <img src="@images/criteria/criteria-image.png" alt="Criteria image" class="md:h-full">
