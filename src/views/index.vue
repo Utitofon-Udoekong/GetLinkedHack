@@ -12,7 +12,7 @@
     <section class="relative py-8 md:py-16 border-b border-white/[0.18]" id="rules">
         <RulesComponent />
     </section>
-    <section class="relative border-b border-white/[0.18]" id="criteria">
+    <section class="relative border-b border-white/[0.18] overflow-x-hidden" id="criteria">
         <CriteriaComponent />
     </section>
     <section class="relative py-10 md:py-20 border-b border-white/[0.18]" id="faq">
