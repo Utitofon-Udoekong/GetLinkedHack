@@ -42,6 +42,11 @@
     background-blend-mode: color-burn;
     z-index: -20;
 }
+  @media screen and (mqx-width: 767px){
+    .reward{
+      background: none;
+    }
+  }
 .footer-bg{
     background: var(--footer-bg);
 }
