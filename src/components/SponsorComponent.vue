@@ -3,11 +3,11 @@
 <template>
     <div>
         <div class="horizontal-padding">
-            <div class="text-center mb-16">
+            <div data-aos="fade-up" class="text-center mb-16">
                 <p class="font-clash text-xl md:text-3xl mouse-lg pb-3 md:pb-5">Partner and Sponsors</p>
                 <p class="text-xs md:text-sm leading-[27px]">Getlinked Hackathon 1.0 is honored to have the following major <br> companies as its partners and sponsors</p>
             </div>
-            <div class="relative bg-white/[0.01] border border-pink rounded-lg py-5 sm:py-10 md:px-40 md:py-36">
+            <div data-aos="fade-up" class="relative bg-white/[0.01] border border-pink rounded-lg py-5 sm:py-10 md:px-40 md:py-36">
                 <div class="grid grid-cols-3 grid-rows-2">
                     <div class="p-3 md:p-5 sponsor sponsor-l flex items-center justify-center"><img src="@images/sponsor/Liberty.png" class="w-10 md:w-auto" alt="Liberty"></div>
                     <div class="p-3 md:p-5 sponsor sponsor-l flex items-center justify-center"><img src="@images/sponsor/Libertypay.png" class="w-10 md:w-auto" alt="Libertypay"></div>

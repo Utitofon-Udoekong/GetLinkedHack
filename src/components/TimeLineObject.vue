@@ -23,7 +23,7 @@ const props = defineProps<{
 <template>
     <div>
         <div v-for="timeline in timelines" class="hidden md:grid grid-cols-7 grid-rows-[1fr_20px] items-end">
-            <div :class="[
+            <div data-aos="fade-right" :class="[
                 'col-span-3 text-right ',
                 {
                     'row-span-2': timeline?.left.sub
@@ -38,7 +38,7 @@ const props = defineProps<{
                     {{ timeline?.num }}
                 </div>
             </div>
-            <div :class="[
+            <div data-aos="fade-left" :class="[
                 'col-span-3',
                 {
                     'row-span-2': timeline?.right.sub

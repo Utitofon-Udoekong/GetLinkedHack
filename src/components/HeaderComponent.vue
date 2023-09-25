@@ -15,8 +15,8 @@
                 <div class="flex flex-col md:flex-row md:justify-between">
                     <div class="px-8 md:pl-[70px] xl:pl-32">
                         <div class="font-clash text-3xl mouse-lg md:text-6xl xl:text-[80px] mt-16 md:mt-32 relative md:w-max text-center md:text-left">
-                            <p>getlinked Tech</p>
-                            <p class="flex items-center gap-x-1 md:gap-x-2 pb-2 md:pb-0">Hackathon <span class="text-pink">1.0</span>
+                            <p >getlinked Tech</p>
+                            <p class="flex items-center justify-center md:justify-start gap-x-1 md:gap-x-2 pb-2 md:pb-0">Hackathon <span class="text-pink">1.0</span>
                                 <img src="@images/header/header-icon-chain.png" alt="chain icon"
                                     class="grow-0 w-6 md:w-10 xl:w-13">
                                 <img src="@images/header/header-icon-flare.png" alt="flare icon"
@@ -62,9 +62,4 @@
     </div>
 </template>
 <style>
-
-/* .head--section{
-    background: lightgray -155.25px -155px / 114.411% 118.9% no-repeat url("@images/header/header-lens-1.png"),
-    lightgray -0.25px 0px / 130.652% 100% no-repeat url("@images/header/header-lens-2.png");
-    background-blend-mode: hard-light;
-} */</style>
+</style>

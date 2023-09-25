@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const route = useRoute()
 </script>
 <template>
   <div data-aos="fade-down" class="horizontal-padding md:mb-[30px] bg-transparent h-full">

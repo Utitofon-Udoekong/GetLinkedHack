@@ -29,7 +29,7 @@ gsap.ticker.add(() => {
 const isCursorVisible = ref(false);
 const cursorClasses = computed(() => {
     return {
-        'cursor d-none d-xl-block': true,
+        'cursor hidden md:block': true,
         'cursor--hidden': !isCursorVisible.value,
     }
 });
@@ -45,7 +45,6 @@ watchOnce(x, () => {
 const setupMouseEffect = (className: string, cursorSize: number) => {
     document.body.addEventListener('mouseover', (event) => {
         //@ts-ignore
-        console.log(event.target.classList)
         if (event.target.classList.contains(className)) {
             gsap.killTweensOf(size);
             gsap.to(size, { duration: 0.2, value: cursorSize });
@@ -53,7 +52,6 @@ const setupMouseEffect = (className: string, cursorSize: number) => {
     });
     document.body.addEventListener('mouseout', (event) => {
         //@ts-ignore
-        console.log(event.target.classList)
         if (event.target.classList.contains(className)) {
             gsap.killTweensOf(size);
             gsap.to(size, { duration: 0.1, value: startingSize });
@@ -83,7 +81,7 @@ watch(route, () => {
 <style lang="scss" scoped>
 .cursor {
     position: fixed;
-    z-index: 10000;
+    z-index: 100000;
     background-color: white;
     border: 2px solid white;
     border-radius: 100%;

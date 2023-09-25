@@ -3,7 +3,7 @@
 <template>
     <div>
         <div class="horizontal-padding flex flex-col md:flex-row items-center justify-center gap-x-12 mt-5 md:mt-10">
-            <div class="max-w-xl mb-12 md:mb-0">
+            <div data-aos="fade-right" class="max-w-xl mb-12 md:mb-0">
                 <div class="mb-8 md:mb-16 text-center md:text-left">
                     <p class="font-clash text-xl md:text-3xl mouse-lg">Privacy Policy and <br><span class="text-pink">Terms</span></p>
                     <p class="text-xs md:text-sm pt-2 pb-5 md:py-7 text-white/75">Last updated on September 12, 2023</p>

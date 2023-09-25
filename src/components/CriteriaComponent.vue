@@ -4,12 +4,12 @@
     <div class="py-10 md:py-20">
         <div class="flex flex-col md:flex-row items-center justify-around horizontal-padding">
             <div class="relative pt-8 md:pt-16">
-                <img src="@images/criteria/criteria-image.png" alt="Criteria image" class="h-full">
+                <img data-aos="fade-up" src="@images/criteria/criteria-image.png" alt="Criteria image" class="md:h-full">
                 <img src="@images/criteria/criteria-star.png" alt="star icon" class="absolute w-2 md:w-auto top-0 md:-top-16 left-28 md:left-32">
                 <img src="@images/criteria/criteria-star-2.png" alt="star icon" class="absolute hidden md:block -bottom-10 right-10 w-2 md:w-5 xl:w-8">
                 <img src="@images/criteria/criteria-ellipse.png" alt="image ellipse clip" class="absolute top-6 hidden sm:block left-20 -z-10">
             </div>
-            <div class="max-w-md relative text-center md:text-left">
+            <div data-aos="fade-left" class="max-w-md relative text-center md:text-left">
                 <p class="font-clash text-xl md:text-3xl mouse-lg pb-4 md:pb-5">Judging criteria<br><span class="text-pink">Key attributes</span></p>
                 <ul class="text-xs md:text-sm">
                     <li class="leading-[25px] mb-5"><span class="text-hard-pink">Innovation and Creativity:</span> Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.</li>
