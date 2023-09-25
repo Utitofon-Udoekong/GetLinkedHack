@@ -20,7 +20,7 @@
                         <li class="pb-5"><a href="#">Overview</a></li>
                         <li class="pb-5"><a href="#timeline">Timeline</a></li>
                         <li class="pb-5"><a href="#faq">FAQs</a></li>
-                        <li class="pb-5"><a href="#">Register</a></li>
+                        <li class="pb-5"><RouterLink to="/register">Register</RouterLink></li>
                     </ul>
                     <div class="flex items-center gap-x-4">
                         <p class="text-pink">Follow us</p>
