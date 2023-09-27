@@ -1,20 +1,5 @@
 <script setup lang="ts">
-interface Timeline {
-    left: {
-        title: String;
-        sub?: String;
-    },
-    num: Number,
-    right: {
-        title: String;
-        sub?: String;
-    },
-}
-interface MobileTimeline {
-    title: String;
-    sub: String;
-    num: Number,
-}
+import type { Timeline, MobileTimeline } from "@/utils";
 const props = defineProps<{
     timelines?: Timeline[],
     mobileTimelines?: MobileTimeline[]

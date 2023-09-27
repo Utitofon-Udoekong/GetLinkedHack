@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const dueDate = new Date("2023,11, 18")
+const hour = ref("00")
+const minute = ref("00")
+const seconds = ref("00")
+setInterval(() => {
+    const now = Date.now()
+    const timeLeft = new Date(dueDate.getTime() - now)
+    hour.value = timeLeft.getHours().toString().padStart(2,"0")
+    minute.value = timeLeft.getMinutes().toString().padStart(2,"0")
+    seconds.value = timeLeft.getSeconds().toString().padStart(2,"0")
+}, 1000)
 
 </script>
 <template>
@@ -33,9 +44,9 @@
                             </div>
                         </div>
                         <div class="font-unica text-5xl md:text-6xl flex justify-center md:justify-start gap-x-5 md:mb-20 mt-4 md:mt-16">
-                            <span>00<span class="font-montserrat text-sm">H</span></span>
-                            <span>00<span class="font-montserrat text-sm">M</span></span>
-                            <span>00<span class="font-montserrat text-sm">S</span></span>
+                            <span class="mouse-md">{{hour}}<span class="font-montserrat text-sm">H</span></span>
+                            <span class="mouse-md">{{minute}}<span class="font-montserrat text-sm">M</span></span>
+                            <span class="mouse-md">{{seconds}}<span class="font-montserrat text-sm">S</span></span>
                         </div>
                     </div>
                     <div class="flex md:items-end md:justify-end">
